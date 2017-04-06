@@ -23,7 +23,7 @@ public class Jacobi {
         Arrays.fill(x, 0);
         Arrays.fill(previous, 0);
 
-        for(iterations = 0 ; iterations < 10000; iterations++) {
+        for(iterations = 0 ; iterations < 100; iterations++) {
 
             for (int i = 0; i < N; i++) {
 

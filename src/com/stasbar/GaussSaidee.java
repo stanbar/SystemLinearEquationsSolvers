@@ -5,11 +5,11 @@ import java.util.Arrays;
 /**
  * Created by stasbar on 05.04.2017.
  */
-public class Gauss {
+public class GaussSaidee {
     double[][] A;
     double[] B;
     int N;
-    public Gauss(double[][] a, double[] b, int N) {
+    public GaussSaidee(double[][] a, double[] b, int N) {
         A = a;
         B = b;
         this.N = N;
@@ -25,7 +25,7 @@ public class Gauss {
         Arrays.fill(x, 0);
         Arrays.fill(previous, 0);
 
-        for (iteration = 0; iteration < 10000; iteration++) {
+        for (iteration = 0; iteration < 100; iteration++) {
             for (int i = 0; i < N; i++) {
                 omega = 0;
                 for (int j = 0; j <= i - 1; j++)
